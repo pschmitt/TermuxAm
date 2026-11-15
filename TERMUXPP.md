@@ -15,7 +15,7 @@ The unsigned helper APK is at
 `app/build/outputs/apk/release/app-release-unsigned.apk`.
 Use the TermuxPP core repository's `scripts/package-helpers.py` to package it
 with its launcher and the matching native API tools. See
-[the bootstrap guide](https://github.com/pschmitt/termux-app/blob/main/docs/en/aarch64-bootstrap.md).
+[the bootstrap guide](https://github.com/pschmitt/termuxpp-app/blob/main/docs/en/aarch64-bootstrap.md).
 The packager substitutes the runtime prefix and preserves Android 14+'s
 read-only dex requirement. Do not install this helper APK with Android's package
 installer.
